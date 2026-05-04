@@ -1,0 +1,7 @@
+package com.Harsh.Smart.Courier.Manager.Exception;
+
+public class PasswordMismatchException extends RuntimeException{
+    public PasswordMismatchException(String message){
+        super(message);
+    }
+}
